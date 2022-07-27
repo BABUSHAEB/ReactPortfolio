@@ -14,9 +14,9 @@ export default function Home() {
     textAlign: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
+    // backgroundPosition: "center",
     color: "white",
-    padding:"1rem",
+    padding:"3rem",
     // fontFamily: ` 'Lucida Console', "Courier New", monospace`
     // fontFamily: ` "Times New Roman", Times, serif`
     fontFamily: ` Arial, Helvetica, sans-serif`
