@@ -18,11 +18,11 @@ export default function Skills() {
     '@media (max-width: 0px) and(max-width: 500px)': {
       fontSize: "5px", fontWeight: "600"
     },
-
+   
   }
-  let heading = {
-    padding: "2rem 0"
-  }
+let heading = {
+  padding: "2rem 0" 
+}
   return (
     <div className='component-container' style={Container}>
 
@@ -32,32 +32,67 @@ export default function Skills() {
       <div >
         <div className='container gridView'>
           <div>
-            <span>   HTML 5 <i className="fa-brands fa-html5" /></span>
-
+            <details>
+              <summary>HTML 5 <i className="fa-brands fa-html5" /></summary>
+              <ul>
+                <li>helll</li>
+                <li>life</li>
+                <li>dance</li>
+              </ul>
+            </details>
           </div>
           <div className="progress">
             <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "80%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
           </div>
           <div>
-            <span>  CSS <i className="fa-brands fa-css3" /> </span>
+            <details>
+              <summary>CSS <i className="fa-brands fa-css3" /> </summary>
+              <ul>
+                <li>helll</li>
+                <li>life</li>
+                <li>dance</li>
+              </ul>
+            </details>
           </div>
           <div className="progress">
             <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "80%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
           </div>
           <div>
-            <span> JavaScript <i className="fa-brands fa-js" /> </span>
+            <details>
+              <summary> JavaScript <i className="fa-brands fa-js" /> </summary>
+              <ul>
+                <li>helll</li>
+                <li>life</li>
+                <li>dance</li>
+              </ul>
+            </details>
           </div>
           <div className="progress">
             <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "70%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
           </div>
           <div>
-            <span>    Bootstrap <i className="fa-brands fa-bootstrap" /></span>
+            <details>
+              <summary> Bootstrap <i className="fa-brands fa-bootstrap" /></summary>
+              <ul>
+                <li>helll</li>
+                <li>life</li>
+                <li>dance</li>
+              </ul>
+            </details>
+
           </div>
           <div className="progress">
             <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "75%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
           </div>
           <div>
-            <span>   React <i className="fa-brands fa-react" /></span>
+            <details>
+              <summary>  React <i className="fa-brands fa-react" /></summary>
+              <ul>
+                <li>helll</li>
+                <li>life</li>
+                <li>dance</li>
+              </ul>
+            </details>
           </div>
           <div className="progress">
             <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "60%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
@@ -71,25 +106,53 @@ export default function Skills() {
       <div >
         <div className='container gridView' >
           <div>
-            <span>  GIt/GitBash <i className="fa-brands fa-github" /></span>
+            <details>
+              <summary>GIt/GitBash <i className="fa-brands fa-github" /></summary>
+              <ul>
+                <li>helll</li>
+                <li>life</li>
+                <li>dance</li>
+              </ul>
+            </details>
           </div>
           <div className="progress">
             <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
           </div>
           <div>
-            <span> Visual Studio Code <i className="fa-brands fa-github" /></span>
+          <details>
+              <summary>Visual Studio Code <i className="fa-brands fa-github" /></summary>
+              <ul>
+                <li>helll</li>
+                <li>life</li>
+                <li>dance</li>
+              </ul>
+            </details>
           </div>
           <div className="progress">
             <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
           </div>
           <div>
-            <span> Postman <i className="fa-brands fa-github" /></span>
+          <details>
+              <summary>Postman <i className="fa-brands fa-github" /></summary>
+              <ul>
+                <li>helll</li>
+                <li>life</li>
+                <li>dance</li>
+              </ul>
+            </details>
           </div>
           <div className="progress">
             <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
           </div>
           <div>
-            <span> MS Office <i className="fa-brands fa-github" /></span>
+          <details>
+              <summary>MS Office <i className="fa-brands fa-github" /></summary>
+              <ul>
+                <li>helll</li>
+                <li>life</li>
+                <li>dance</li>
+              </ul>
+            </details>
           </div>
           <div className="progress">
             <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
