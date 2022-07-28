@@ -12,20 +12,12 @@ export default function Skills() {
 
 
   }
-  let gridMode = {
-    display: 'grid', gridTemplateColumns: 'auto 40%', fontSize: "1.5rem", fontWeight: "600",
-    textAlign: "left", gridGap: '16px', color: 'blue', justifyContent: "space-around",
-    '@media (max-width: 0px) and(max-width: 500px)': {
-      fontSize: "5px", fontWeight: "600"
-    },
-   
-  }
+
 let heading = {
   padding: "2rem 0" 
 }
   return (
     <div className='component-container' style={Container}>
-
 
       <h3 style={heading}>Front End Technologies</h3>
 
@@ -35,9 +27,8 @@ let heading = {
             <details>
               <summary>HTML 5 <i className="fa-brands fa-html5" /></summary>
               <ul>
-                <li>helll</li>
-                <li>life</li>
-                <li>dance</li>
+                <li>Semantic Tags</li>
+                <li>Layout Grid/Flex</li>
               </ul>
             </details>
           </div>
@@ -48,9 +39,9 @@ let heading = {
             <details>
               <summary>CSS <i className="fa-brands fa-css3" /> </summary>
               <ul>
-                <li>helll</li>
-                <li>life</li>
-                <li>dance</li>
+                <li>Media Query</li>
+                <li>Designing</li>
+                <li>Box Model</li>
               </ul>
             </details>
           </div>
@@ -59,11 +50,28 @@ let heading = {
           </div>
           <div>
             <details>
-              <summary> JavaScript <i className="fa-brands fa-js" /> </summary>
+              <summary>JavaScript <i className="fa-brands fa-js" /> </summary>
               <ul>
-                <li>helll</li>
-                <li>life</li>
-                <li>dance</li>
+                <li>Datatype</li>
+                <li>Operator</li>
+                <li>Ternary Operator</li>
+                <li>API Call
+                  <ul>
+                    <li>fetch</li>
+                    <li>XMLHttpRequest</li>
+                    <li>Axios</li>
+                    <li>JQuery($.ajax)</li>
+                  </ul>
+                </li>
+                <li>Array</li>
+                <li>Objects</li>
+                <li>ES6(ECMAScript 6)
+                  <ul>
+                    <li>Template String</li>
+                    <li>String Literial</li>
+                    <li>String Literial</li>
+                  </ul>
+                </li>
               </ul>
             </details>
           </div>
@@ -72,11 +80,12 @@ let heading = {
           </div>
           <div>
             <details>
-              <summary> Bootstrap <i className="fa-brands fa-bootstrap" /></summary>
+              <summary>Bootstrap <i className="fa-brands fa-bootstrap" /></summary>
               <ul>
-                <li>helll</li>
-                <li>life</li>
-                <li>dance</li>
+                <li>Layout</li>
+                <li>Navbar</li>
+                <li>Grid/Flex</li>
+                <li>CDN Link  Setup</li>
               </ul>
             </details>
 
@@ -86,11 +95,18 @@ let heading = {
           </div>
           <div>
             <details>
-              <summary>  React <i className="fa-brands fa-react" /></summary>
+              <summary>React <i className="fa-brands fa-react" /></summary>
               <ul>
-                <li>helll</li>
-                <li>life</li>
-                <li>dance</li>
+                <li>Functional base Component</li>
+                <li>Class base Component</li>
+                <li>Routing</li>
+                <li>Hooks 
+                  <ul>
+                    <li>useState</li>
+                    <li>useEffect</li>
+                  </ul>
+                </li>
+                <li>API Axios</li>
               </ul>
             </details>
           </div>
@@ -107,11 +123,11 @@ let heading = {
         <div className='container gridView' >
           <div>
             <details>
-              <summary>GIt/GitBash <i className="fa-brands fa-github" /></summary>
+              <summary>Git/GitBash </summary>
               <ul>
-                <li>helll</li>
-                <li>life</li>
-                <li>dance</li>
+                <li>User Configuration</li>
+                <li>Cloning</li>
+                <li>Pushing</li>
               </ul>
             </details>
           </div>
@@ -120,11 +136,11 @@ let heading = {
           </div>
           <div>
           <details>
-              <summary>Visual Studio Code <i className="fa-brands fa-github" /></summary>
+              <summary>Visual Studio Code </summary>
               <ul>
-                <li>helll</li>
-                <li>life</li>
-                <li>dance</li>
+                <li>Visual Studio Code Terminal </li>
+                <li>Extension Setup</li>
+                <li>Version Control</li>
               </ul>
             </details>
           </div>
@@ -133,11 +149,9 @@ let heading = {
           </div>
           <div>
           <details>
-              <summary>Postman <i className="fa-brands fa-github" /></summary>
+              <summary>Postman </summary>
               <ul>
-                <li>helll</li>
-                <li>life</li>
-                <li>dance</li>
+                <li>API Testing</li>
               </ul>
             </details>
           </div>
@@ -146,16 +160,17 @@ let heading = {
           </div>
           <div>
           <details>
-              <summary>MS Office <i className="fa-brands fa-github" /></summary>
+              <summary>MS Office Tools</summary>
               <ul>
-                <li>helll</li>
-                <li>life</li>
-                <li>dance</li>
+                <li>Microsoft Word</li>
+                <li>Microsoft Excel</li>
+                <li>Microsoft Paint</li>
+                <li>Microsoft Outlook</li>
               </ul>
             </details>
           </div>
           <div className="progress">
-            <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+            <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
           </div>
 
         </div>

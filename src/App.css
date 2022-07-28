@@ -3,6 +3,11 @@
     background-color: #e1e9f5;
 
 }
+*{
+    /* font-family: "Times New Roman", Times, serif; */
+
+    font-family: system-ui;
+}
 
 /* footer */
 .footer-container {
@@ -38,10 +43,9 @@
 /* Component Container Width & Height */
 .component-container {
     width: auto;
-    /* height: auto; */
     min-height: 90vh;
-    /* background-color: rgb(55;126;126); */
     margin: 0;
+    
 }
 
 /* skills */
