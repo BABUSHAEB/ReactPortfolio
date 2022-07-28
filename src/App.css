@@ -56,10 +56,5 @@
     justify-content: space-around;
 
 }
-.gridView {
-    @media only screen and(max-width: 500px){
-        font-size: 5px;
-        /* font-weight: 600; */
-        display: none;
-    }
-}
+
+
