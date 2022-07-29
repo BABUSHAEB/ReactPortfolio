@@ -1,5 +1,6 @@
 
 import React from 'react'
+import styled from 'styled-components'
 
 export default function Skills() {
 
@@ -16,13 +17,28 @@ export default function Skills() {
 let heading = {
   padding: "2rem 0" 
 }
+
+let GridView = styled.div`
+display: grid;
+grid-template-columns: auto 40%;
+font-size: 1.5rem;
+font-weight: "600";
+text-align: left;
+grid-gap: 16px;
+color: blue;
+justify-content: space-around;
+
+@media (min-width: 0px) and (max-width: 600px){
+  font-size: 1rem;
+}
+`;
   return (
     <div className='component-container' style={Container}>
 
       <h3 style={heading}>Front End Technologies</h3>
 
       <div >
-        <div className='container gridView'>
+        <GridView className='container'>
           <div>
             <details>
               <summary>HTML 5 <i className="fa-brands fa-html5" /></summary>
@@ -132,13 +148,13 @@ let heading = {
             <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "60%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
           </div>
 
-        </div>
+        </GridView>
       </div>
 
       <h3 style={heading}>Tools</h3>
 
       <div >
-        <div className='container gridView' >
+        <GridView className='container' >
           <div>
             <details>
               <summary>Git/GitBash </summary>
@@ -191,7 +207,7 @@ let heading = {
             <div className="progress-bar bg-success" role="progressbar" aria-label="Success example" style={{ width: "50%" }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
           </div>
 
-        </div>
+        </GridView>
       </div>
 
     </div>

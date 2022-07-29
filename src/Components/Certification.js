@@ -1,4 +1,6 @@
 import React from 'react'
+import styled from 'styled-components'
+
 
 export default function Certification() {
   let heading = {
@@ -11,17 +13,33 @@ export default function Certification() {
     width: "100%",
     minHeight: "80vh"
   }
-  let gridMode = {
-    display: 'grid', gridTemplateColumns: 'auto 40%', fontSize: "1rem", fontWeight: "600",
-    textAlign: "left", gridGap: '16px', justifyContent: "space-around"
+  // display: 'grid';
+  //  gridTemplateColumns: 'auto 40%', fontSize: "1rem", fontWeight: "600",
+  //   textAlign: "left", gridGap: '16px', justifyContent: "space-around"
+  let GridMode = styled.div`
+    display: grid;
+    grid-template-columns: auto 40%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    grid-gap: 16px;
+    justify-content: space-around;
 
-  }
+    @media (min-width: 0px) and (max-width: 600px){
+      font-size: 1rem;
+      grid-template-columns: auto auto;
+      .btn{
+        font-size:8px;
+      }     
+    }
+  `;
+
   return (
     <div className='component-container' style={Container}>
       <h3 style={heading}>Certificate</h3>
 
       <div >
-        <div className='container' style={gridMode}>
+        <GridMode className='container' >
           <div>
             HTML5 - From Basics to Advanced level.
           </div>
@@ -47,13 +65,13 @@ export default function Certification() {
             </a>
           </div>
           <div>
-          Complete React Developer Masterclass for Beginners  
+            Complete React Developer Masterclass for Beginners.
           </div>
           <div>
             {/* <a href="https://www.udemy.com/certificate/UC-3f151134-5cae-4e06-bf50-e53c5ee3a81b/" target="_blank" rel="noopener noreferrer"></a> */}
-              <button className="btn btn-primary">Pursuing</button>
+            <button className="btn btn-primary">Pursuing</button>
           </div>
-        </div>
+        </GridMode>
 
       </div>
     </div>
