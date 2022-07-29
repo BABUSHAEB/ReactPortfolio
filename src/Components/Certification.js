@@ -12,7 +12,7 @@ export default function Certification() {
     minHeight: "80vh"
   }
   let gridMode = {
-    display: 'grid', gridTemplateColumns: 'auto 40%', fontSize: "1.5rem", fontWeight: "600",
+    display: 'grid', gridTemplateColumns: 'auto 40%', fontSize: "1rem", fontWeight: "600",
     textAlign: "left", gridGap: '16px', justifyContent: "space-around"
 
   }

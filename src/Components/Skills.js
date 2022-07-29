@@ -27,8 +27,10 @@ let heading = {
             <details>
               <summary>HTML 5 <i className="fa-brands fa-html5" /></summary>
               <ul>
-                <li>Semantic Tags</li>
-                <li>Layout Grid/Flex</li>
+                <li>Basics</li>
+                <li>Forms</li>
+                <li>Semantic HTML</li>
+                <li>SEO Basics</li>
               </ul>
             </details>
           </div>
@@ -39,9 +41,18 @@ let heading = {
             <details>
               <summary>CSS <i className="fa-brands fa-css3" /> </summary>
               <ul>
-                <li>Media Query</li>
-                <li>Designing</li>
+                <li>Basics</li>
+                <li>Selectors</li>
                 <li>Box Model</li>
+                <li>Positioning</li>
+                <li>Box Model</li>
+                <li>Display</li>
+                <li>FlexBox</li>
+                <li>Grid</li>
+                <li>Media Queries</li>
+                <li>Pseudo Elements</li>
+                <li>Pseudo Classes</li>
+                <li>Animations</li>
               </ul>
             </details>
           </div>
@@ -52,26 +63,19 @@ let heading = {
             <details>
               <summary>JavaScript <i className="fa-brands fa-js" /> </summary>
               <ul>
-                <li>Datatype</li>
-                <li>Operator</li>
-                <li>Ternary Operator</li>
-                <li>API Call
-                  <ul>
-                    <li>fetch</li>
-                    <li>XMLHttpRequest</li>
-                    <li>Axios</li>
-                    <li>JQuery($.ajax)</li>
-                  </ul>
-                </li>
-                <li>Array</li>
+                <li> Basic Syntax</li>
+                <li>DOM Manipulation</li>
+                <li>Fetch API / Ajax</li>
+                <li>Async Await</li>
+                <li>Event Listeners</li>
+                <li>ES6+ JavaScript</li>
+                <li>Promises</li>
+                <li>Classes</li>
+                <li>Array Methods</li>
                 <li>Objects</li>
-                <li>ES6(ECMAScript 6)
-                  <ul>
-                    <li>Template String</li>
-                    <li>String Literial</li>
-                    <li>String Literial</li>
-                  </ul>
-                </li>
+                <li>Scoping</li>
+                <li>Hoisting</li>
+                <li>Closures</li>
               </ul>
             </details>
           </div>
@@ -97,16 +101,30 @@ let heading = {
             <details>
               <summary>React <i className="fa-brands fa-react" /></summary>
               <ul>
-                <li>Functional base Component</li>
-                <li>Class base Component</li>
-                <li>Routing</li>
+                <li>Components</li>
+                <li>JSX</li>
+                <li>Props</li>
+                <li>State</li>
+                <li>Events</li>
+                <li>Conditional Rendering</li>
                 <li>Hooks 
                   <ul>
                     <li>useState</li>
                     <li>useEffect</li>
                   </ul>
                 </li>
-                <li>API Axios</li>
+                <li>React packages
+                  <ul>
+                    <li>React Router</li>
+                    <li>Styled Components</li>
+                    <li>Axios</li>
+                  </ul>
+                </li>
+                <li>React UI Frameworks
+                  <ul>
+                    <li>React Bootstrap</li>
+                  </ul>
+                </li>
               </ul>
             </details>
           </div>
@@ -151,7 +169,7 @@ let heading = {
           <details>
               <summary>Postman </summary>
               <ul>
-                <li>API Testing</li>
+                <li>API Integration</li>
               </ul>
             </details>
           </div>
