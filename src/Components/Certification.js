@@ -1,45 +1,58 @@
 import React from 'react'
 import styled from 'styled-components'
 
+let ContainerMode = styled.div`
+
+text-align: center;
+padding: 2rem;
+background-color: #f5f3f0;
+width: 100%;
+min-height: 80vh;
+
+.heading{
+  padding: 2rem 0;
+}
+
+.gridMode{
+  display: grid;
+  grid-template-columns: auto 40%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: left;
+  grid-gap: 16px;
+  justify-content: space-around;
+
+}
+.component-container{
+  width: auto;
+  min-height: 90vh;
+  margin: 0;
+  
+}
+  @media (min-width: 0px) and (max-width: 600px){
+
+    .gridMode{
+      font-size: 1rem;
+      grid-template-columns: auto auto;
+    }
+    .btn{
+      font-size:8px;
+    }     
+}
+`;
 
 export default function Certification() {
-  let heading = {
-    padding: "2rem 0"
-  }
-  let Container = {
-    textAlign: "center",
-    padding: "2rem",
-    backgroundColor: "#f7f9f8",
-    width: "100%",
-    minHeight: "80vh"
-  }
+
   // display: 'grid';
   //  gridTemplateColumns: 'auto 40%', fontSize: "1rem", fontWeight: "600",
   //   textAlign: "left", gridGap: '16px', justifyContent: "space-around"
-  let GridMode = styled.div`
-    display: grid;
-    grid-template-columns: auto 40%;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-align: left;
-    grid-gap: 16px;
-    justify-content: space-around;
-
-    @media (min-width: 0px) and (max-width: 600px){
-      font-size: 1rem;
-      grid-template-columns: auto auto;
-      .btn{
-        font-size:8px;
-      }     
-    }
-  `;
 
   return (
-    <div className='component-container' style={Container}>
-      <h3 style={heading}>Certificate</h3>
+    <ContainerMode className='component-container containerwidth' >
+      <h3 className='heading' >Certificate</h3>
 
       <div >
-        <GridMode className='container' >
+        <div className='container gridMode' >
           <div>
             HTML5 - From Basics to Advanced level.
           </div>
@@ -71,9 +84,9 @@ export default function Certification() {
             {/* <a href="https://www.udemy.com/certificate/UC-3f151134-5cae-4e06-bf50-e53c5ee3a81b/" target="_blank" rel="noopener noreferrer"></a> */}
             <button className="btn btn-primary">Pursuing</button>
           </div>
-        </GridMode>
+        </div>
 
       </div>
-    </div>
+    </ContainerMode>
   )
 }

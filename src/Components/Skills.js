@@ -2,22 +2,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-export default function Skills() {
-
-  let Container = {
-    textAlign: "center",
-    padding: "2rem",
-    backgroundColor: "#d2d8dd",
-    width: "100%",
-    minHeight: "80vh"
-
-
-  }
-
-let heading = {
-  padding: "2rem 0" 
-}
-
 let GridView = styled.div`
 display: grid;
 grid-template-columns: auto 40%;
@@ -32,6 +16,23 @@ justify-content: space-around;
   font-size: 1rem;
 }
 `;
+
+export default function Skills() {
+
+  let Container = {
+    textAlign: "center",
+    padding: "2rem",
+    backgroundColor: "#dfede3",
+    width: "100%",
+    minHeight: "80vh"
+
+
+  }
+
+let heading = {
+  padding: "2rem 0" 
+}
+
   return (
     <div className='component-container' style={Container}>
 

@@ -41,13 +41,16 @@
 
 /* Footer Code End Here */
 /* Component Container Width & Height */
-.component-container {
+.component-container{
     width: auto;
     min-height: 90vh;
     margin: 0;
+    padding-top: 2rem;
     
 }
-
+.heading{
+    text-align: center;
+}
 /* skills */
 /* .gridView {
     display: grid;
