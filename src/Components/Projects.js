@@ -58,12 +58,10 @@ div.box-shadow: hover{
  }
 @media (min-width: 0px) and (max-width: 600px){
  
-  
-  
-
 }
 `;
 export default function Projects() {
+
   let CollegeProjects = [{
     Title: "Online Mobile Site",
     Platform: ".Net Framework",
@@ -71,7 +69,7 @@ export default function Projects() {
     TeamMember: "Two",
     Role: "UI Development",
     Skills: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-    Description:"In this project, I was responsible for creating responsive UI with bootstrap ,CSS ,HTML. We were three member and each member has disturbed roles to this project."
+    Description:"we were 3 members in this Project the work all three was divided separately in which UI Desiging was my Responsiblity."
   }];
   let PersonalProjects = [{
     id: 1,
@@ -82,18 +80,9 @@ export default function Projects() {
     Role: "UI Development",
     Skills: ["JSX", "CSS", "JavaScript", "Bootstrap", "React JS", "React Router"],
     Description: "I have created to Enhance my Skills towards React .The beauty of this project is that it has theme of dark and light ,It is able to perform such operation like Upper Case ,Lower Case ,Count the both letter and word , reverse the Entire paragraph ,Copy all the paragraph in text box remove extra Spaces and Download Text in '.txt' Formate."
-  },{
-    id: 2,
-    Title: "Text Tools",
-    Platform: "React Js Library",
-    Image: "Images/Texttools.png",
-    IDE: "Visual Studio Code",
-    Role: "UI Development",
-    Skills: ["JSX", "CSS", "JavaScript", "Bootstrap", "React JS", "React Router"],
-    Description: "I have created to Enhance my Skills towards React .The beauty of this project is that it has theme of dark and light ,It is able to perform such operation like Upper Case ,Lower Case ,Count the both letter and word , reverse the Entire paragraph ,Copy all the paragraph in text box remove extra Spaces and Download Text in '.txt' Formate."
   }];
   return (
-    <div className='component-container'>
+    <div className='component-container Component-color'>
       <div>
         <h2 className="heading">College Project</h2>
         <CollegeProjectGrid >

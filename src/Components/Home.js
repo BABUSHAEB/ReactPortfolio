@@ -7,7 +7,10 @@ export default function Home() {
     width: "20rem",
     height: "20rem",
     borderRadius: "50%",
-    padding:"1rem"
+    padding:"1rem",
+    border:"none",
+    marginBottom:"1rem",
+    boxShadow: "5px 5px 15px white"
   }
   let container ={
     background: `Url(${Homebg})`,

@@ -3,7 +3,7 @@
     background-color: #e1e9f5;
 
 }
-*{
+body{
     /* font-family: "Times New Roman", Times, serif; */
 
     font-family: system-ui;
@@ -39,6 +39,11 @@
     color: blue;
     
 }
+.Component-color{
+    /* background-color: rgba(114, 116, 117, 0); */
+    background-color: #a2eeee00;
+    margin: 0;
+}
 
 /* Footer Code End Here */
 /* Component Container Width & Height */
@@ -47,11 +52,15 @@
     min-height: 90vh;
     margin: 0;
     padding-top: 2rem;
+    padding-bottom: 2rem;
     
 }
 .heading{
     text-align: center;
     padding: 1.5rem 0;
+}
+.aboutme-bg{
+    background-color: rgb(202, 190, 190);
 }
 /* skills */
 /* .gridView {

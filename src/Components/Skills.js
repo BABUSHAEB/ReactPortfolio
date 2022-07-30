@@ -22,7 +22,7 @@ export default function Skills() {
   let Container = {
     textAlign: "center",
     padding: "2rem",
-    backgroundColor: "#dfede3",
+    backgroundColor: "#a2eeee00",
     width: "100%",
     minHeight: "80vh"
 

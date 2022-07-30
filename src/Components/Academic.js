@@ -17,11 +17,9 @@ div.box-shadow: hover{
     box-shadow: 5px 5px 6px blue;
  }
  .card-body{
-  padding:10px;
+  padding:2rem;
  }
 @media (min-width: 0px) and (max-width: 600px){
- 
-  
   
 
 }
@@ -69,6 +67,7 @@ export default function Academic() {
   return (
     <div className='component-container'>
       <AcademicGrid >
+        <h2 className="heading">Academic</h2>
         {Acdemic.map(Acdemic => {
           return (
             <>
