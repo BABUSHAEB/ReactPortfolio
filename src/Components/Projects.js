@@ -79,7 +79,7 @@ export default function Projects() {
     IDE: "Visual Studio Code",
     Role: "UI Development",
     Skills: ["JSX", "CSS", "JavaScript", "Bootstrap", "React JS", "React Router"],
-    Description: "I have created to Enhance my Skills towards React .The beauty of this project is that it has theme of dark and light ,It is able to perform such operation like Upper Case ,Lower Case ,Count the both letter and word , reverse the Entire paragraph ,Copy all the paragraph in text box remove extra Spaces and Download Text in '.txt' Formate."
+    Description: "I have created to Enhance my Skills towards React .The beauty of this project is that it has theme of Dark and Bright ,It is able to perform such operation like Upper Case ,Lower Case ,Count letter & words , reverse the Entire paragraph ,Copy all the paragraph in text box remove extra Spaces and Download Text in '.txt' Format."
   }];
   return (
     <div className='component-container Component-color'>
