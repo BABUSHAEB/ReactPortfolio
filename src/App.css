@@ -37,6 +37,7 @@
 .social-icon :hover {
     font-size: 2rem;
     color: blue;
+    
 }
 
 /* Footer Code End Here */
@@ -50,6 +51,7 @@
 }
 .heading{
     text-align: center;
+    padding: 1.5rem 0;
 }
 /* skills */
 /* .gridView {
