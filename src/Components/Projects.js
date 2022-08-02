@@ -78,8 +78,22 @@ export default function Projects() {
     Image: "Images/Texttools.png",
     IDE: "Visual Studio Code",
     Role: "UI Development",
-    Skills: ["JSX", "CSS", "JavaScript", "Bootstrap", "React JS", "React Router"],
-    Description: "I have created to Enhance my Skills towards React .The beauty of this project is that it has theme of Dark and Bright ,It is able to perform such operation like Upper Case ,Lower Case ,Count letter & words , reverse the Entire paragraph ,Copy all the paragraph in text box remove extra Spaces and Download Text in '.txt' Format."
+    Skills: ["JSX", "CSS", "JavaScript", "Bootstrap", "React JS", "React Router", "useState Hooks"],
+    Description: "I have created it to Enhance my Skills in React. The beauty of this project is that it has a theme of Dark and Bright, It is able to perform such operations as Upper Case , Lower Case, Count letters & words, reverse the Entire paragraph, Copy all the paragraphs in the text box remove extra Spaces and Download Text in '.txt' Format.",
+    ViewProject: "https://texttools.vercel.app/",
+    ViewDemo: "https://www.youtube.com/watch?v=ZGRECrTjLls"
+  },
+  {
+    id: 2,
+    Title: "Weather Tools",
+    Platform: "React Js Library",
+    Image: "Images/APIWeatherApp.png",
+    IDE: "Visual Studio Code",
+    Role: "UI Development",
+    Skills: ["JSX", "CSS", "JavaScript", "React JS", "useState Hooks", "API Integration", "Axois"],
+    Description: "I have created this Application to Ehance my knowledge towards in API Integration.In this application I have use Axios Package to Use API Integration with Error Handling and I have done Validation to Input Field .I'm fetching data from Open weather API . I'm showing Sunrise, Sunset and Max , Min Feel Like tempurature ,Current Date.Converting Kevlin to Celcus",
+    ViewProject: "https://apiweatherapp.vercel.app/",
+    ViewDemo: "https://youtu.be/i8iagOLd3RA"
   }];
   return (
     <div className='component-container Component-color'>
@@ -141,9 +155,9 @@ export default function Projects() {
                       })}
                       <br />
                       <div className="d-flex justify-content-between my-2">
-                          <a href="https://texttools.vercel.app/" target="_blank" rel="noopener noreferrer" > <button className="btn btn-primary">
+                          <a href={PersonalProjects.ViewProject} target="_blank" rel="noopener noreferrer" > <button className="btn btn-primary">
                             View Project</button> </a>          
-                        <a href="https://www.youtube.com/watch?v=ZGRECrTjLls" target="_blank" rel="noopener noreferrer" ><button className="btn btn-primary"><i className="fa-brands fa-youtube" /> View Demo  </button> </a>
+                        <a href={PersonalProjects.ViewDemo} target="_blank" rel="noopener noreferrer" ><button className="btn btn-primary"><i className="fa-brands fa-youtube" /> View Demo  </button> </a>
                         
                     </div>
                   </div>

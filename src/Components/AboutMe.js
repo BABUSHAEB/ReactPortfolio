@@ -150,6 +150,7 @@ export default function AboutMe() {
               <textarea name="message" id="" required placeholder='Purpose' cols="23" rows="3"></textarea>
               {/* <button  onClick={Alert()}>Send</button> */}
               <button  disabled>Send</button>
+              {/* <button  disabled className='my-2'>View Portfolio</button> */}
             </form>
           </div>
         </div>

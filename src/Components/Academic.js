@@ -54,7 +54,8 @@ export default function Academic() {
     id: 3,
     Education: "SSC/Matriculation",
     Degree: "SLC/10th",
-    Specialization: "Math,Computer",
+    // Specialization: "Math,Computer",
+    Specialization: "",
     Board: "SLC Borad ",
     FromYear: 2013,
     FromYearMonth: "March",
@@ -77,7 +78,10 @@ export default function Academic() {
                   <div className="card-body">
                     <h4 className="card-title heading" >{Acdemic.Education}</h4>
                     <p className="card-text my-1 mx-1"><strong>Course: </strong>{Acdemic.Degree}</p>
+
+                    {(Acdemic.Specialization) !== "" && 
                     <p className="card-text my-1 mx-1"><strong>Specialization: </strong>{Acdemic.Specialization}</p>
+                    }
                     <p className="card-text my-1 mx-1"><strong>Institute: </strong>{Acdemic.Institute}</p>
                     <p className="card-text my-1 mx-1"><strong>University: </strong>{Acdemic.Board}</p>
                     <p className="card-text my-1 mx-1"><strong>Year: </strong>{Acdemic.FromYearMonth}-{Acdemic.FromYear} to {Acdemic.ToYearMonth}-{Acdemic.ToYear}</p>
