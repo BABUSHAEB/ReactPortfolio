@@ -77,30 +77,30 @@ button{
 }
 `;
 
-let Alert = ()=>{
-  alert("This Model is Under Progress! You Can Contact On 8521268654")
-  };
+// let Alert = () => {
+//   alert("This Model is Under Progress! You Can Contact On 8521268654")
+// };
 export default function AboutMe() {
 
-//  const axios = require("axios");
+  //  const axios = require("axios");
 
-// const options = {
-//   method: 'POST',
-//   url: 'https://d7sms.p.rapidapi.com/secure/send',
-//   headers: {
-//     'content-type': 'application/json',
-//     Authorization: 'undefined',
-//     'X-RapidAPI-Key': 'fec9a6607fmsh17b0fbe37e8169dp1af5f9jsn5b5718c8b269',
-//     'X-RapidAPI-Host': 'd7sms.p.rapidapi.com'
-//   },
-//   data: '{"content":"Test Message","from":"D7-Rapid","to":971562316353}'
-// };
+  // const options = {
+  //   method: 'POST',
+  //   url: 'https://d7sms.p.rapidapi.com/secure/send',
+  //   headers: {
+  //     'content-type': 'application/json',
+  //     Authorization: 'undefined',
+  //     'X-RapidAPI-Key': 'fec9a6607fmsh17b0fbe37e8169dp1af5f9jsn5b5718c8b269',
+  //     'X-RapidAPI-Host': 'd7sms.p.rapidapi.com'
+  //   },
+  //   data: '{"content":"Test Message","from":"D7-Rapid","to":971562316353}'
+  // };
 
-// axios.request(options).then(function (response) {
-// 	console.log(response.data);
-// }).catch(function (error) {
-// 	console.error(error);
-// });
+  // axios.request(options).then(function (response) {
+  // 	console.log(response.data);
+  // }).catch(function (error) {
+  // 	console.error(error);
+  // });
 
 
   return (
@@ -131,6 +131,11 @@ export default function AboutMe() {
                 </a>
               </span>
               <span className='Contact-me'>
+                <a href="https://join.skype.com/invite/uk1HXbTbDHjh" target="_blank" rel="noopener noreferrer">
+                  <i class="Contact-Icon fa-brands fa-skype" />
+                </a>
+              </span>
+              <span className='Contact-me'>
                 <a href="tel:+918521268654">
                   <i className="Contact-Icon fa-solid fa-phone" />
                 </a>
@@ -149,7 +154,7 @@ export default function AboutMe() {
               <input type="text" name="time" id="" required placeholder='Your Availability (9AM - 7PM)' />
               <textarea name="message" id="" required placeholder='Purpose' cols="23" rows="3"></textarea>
               {/* <button  onClick={Alert()}>Send</button> */}
-              <button  disabled>Send</button>
+              <button disabled>Send</button>
               {/* <button  disabled className='my-2'>View Portfolio</button> */}
             </form>
           </div>

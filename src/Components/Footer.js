@@ -42,6 +42,14 @@ export default function Footer() {
                                     <i className="a-remove fa-solid fa-phone" />
                                     </a>
                                 </span>
+                                <span className='social-icon'>
+                                    <a href="https://join.skype.com/invite/uk1HXbTbDHjh" target="_blank" rel="noopener noreferrer">
+                                    <i class="a-remove fa-brands fa-skype" />
+                                    </a>
+                                </span>
+
+
+                                
 
                             </div>
                         </div>
